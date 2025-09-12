@@ -1,320 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo Juan Goler</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio Juan Goler</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<canvas id="particles"></canvas>
+
+<div class="site">
+    <!-- Header / Hero -->
     <header>
-        <div class="header-overlay"></div>
-        <div class="header-container">
-            <div class="profile">
-                <img src="img/01.jpg" alt="Juan Goler" class="profile-img">
-                <h1>Juan Goler</h1>
-                <p>Técnico de T.I</p>
+        <div class="hero-text reveal">
+            <div class="eyebrow">Olá, meu nome é</div>
+            <h1>Juan Goler</h1>
+            <div class="subtitle">
+                Computer Science | Cybersecurity | Cloud & Virtualization | Networking | IT Systems | Linux & Windows
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre Mim</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#educacao">Educação</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#idioma">Idiomas</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
+            <div class="typing">Estudante de Ciência da Computação na FAM, com foco em cibersegurança e GRC<span class="cursor"></span></div>
         </div>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
+        <aside class="profile reveal">
+            <div class="avatar">
+                <img src="img/avatar.jpg" alt="Juan Goler">
+            </div>
+            <div class="tools">
+                <div class="tool">GitHub</div>
+                <div class="tool">VSCode</div>
+                <div class="tool">Linux Ubuntu</div>
+                <div class="tool">Linux Kali</div>
+                <div class="tool">Windows</div>
+                <div class="tool">PowerShell</div>
+                <div class="tool">Cloudflare</div>
+                <div class="tool">pfSense</div>
+                <div class="tool">Zabbix</div>
+                <div class="tool">BitDefender</div>
+                <div class="tool">Frameworks</div>
+            </div>
+        </aside>
     </header>
-    <main>
-        <section id="sobre" data-aos="fade-up">
-            <div class="about-container">
-                <div class="about-text">
-                    <h2>Sobre Mim</h2>
-                    <p>Olá! Sou Juan Goler, tenho 19 anos, nascido em São Bernardo do Campo. Desde a infância, sinto uma profunda conexão com a tecnologia, uma paixão que moldou meu caminho na informática e na programação. Estou sempre em busca de aprender algo novo e aprimorar minhas habilidades, tanto em software quanto em hardware. Meu objetivo é crescer continuamente e aplicar meus conhecimentos em projetos desafiadores.</p>
-                    <br></br>
-                    <p>Além do meu interesse em tecnologia, sou entusiasta de atividades que estimulam minha mente e criatividade. Gosto de frequentar a academia para manter um estilo de vida saudável e ativo, e me envolvo com jogos, filmes e séries que alimentam minha paixão por histórias envolventes e cenários complexos. Essas atividades não apenas me proporcionam lazer, mas também me ajudam a desenvolver habilidades analíticas e criativas.</p>
-                    <br></br>
-                    <p>Estou em busca de uma oportunidade de estágio na área de informática onde eu possa aplicar e expandir meus conhecimentos, contribuindo com minha dedicação e entusiasmo para a equipe. Estou pronto para enfrentar novos desafios e estou comprometido em crescer e me destacar em qualquer projeto que eu assumir.</p>
-                </div>
+
+    <!-- Sobre mim -->
+    <section class="card reveal">
+        <h2>Sobre mim</h2>
+        <p>
+        Estudante de Ciência da Computação na FAM, direciono minha trajetória para a área de Cibersegurança e Governança de TI (GRC), com foco em proteger, otimizar e fortalecer ambientes corporativos. Minha experiência envolve suporte técnico, administração de servidores, firewalls e segurança em nuvem, além de participação em projetos voltados para hardening de sistemas, análise de riscos e melhoria de desempenho em redes e infraestruturas críticas.
+        </p>
+        <p>
+        Tenho prática em análise de vulnerabilidades e testes de intrusão, utilizando plataformas como TryHackMe e Hack The Box, o que me permite explorar tanto a visão defensiva quanto ofensiva da segurança da informação. Trabalho com ambientes Linux (Kali, Ubuntu) e Windows, integrando ferramentas de monitoramento e proteção, além de desenvolver scripts e automações em PowerShell e BAT para aumentar a eficiência e reduzir riscos operacionais.
+        </p>
+        <p>
+        Minha atuação combina a parte técnica com o olhar estratégico de governança, buscando sempre alinhar tecnologia, compliance e boas práticas de mercado. Tenho conhecimento em normas e frameworks como ISO 27001, NIST e LGPD, e acredito que a segurança vai muito além da infraestrutura, é também uma questão de processos, cultura organizacional e resiliência corporativa.
+        </p>
+        <p>
+        Além do aspecto técnico, valorizo o aprendizado contínuo, a colaboração em equipe e a troca de conhecimento. Estou construindo uma carreira sólida em Cibersegurança e GRC, com o propósito de contribuir para ambientes seguros, escaláveis e preparados para os desafios digitais atuais e futuros.
+        </p>
+        <p>Idiomas: Inglês avançado (leitura e escrita; intermediário em conversação) | Espanhol intermediário</p>
+    </section>
+
+    <!-- Experiência Profissional -->
+    <section class="card reveal">
+        <h2>Experiência Profissional</h2>
+        <h3>Suporte Técnico e Manutenção Preventiva - inteligenTI (jan 2025 - mai 2025)</h3>
+        <ul>
+            <li>Suporte remoto a usuários por meio das plataformas Milvus e TeamViewer;</li>
+            <li>Diagnóstico e manutenção preventiva/corretiva de hardware com HD Sentinel;</li>
+            <li>Criação e gerenciamento de usuários em redes corporativas;</li>
+            <li>Execução de rotinas automatizadas com scripts BAT e PowerShell;</li>
+            <li>Instalação e configuração de softwares licenciados, sistemas operacionais e ambientes virtualizados;</li>
+            <li>Apoio na organização da rede local e no controle de acessos;</li>
+            <li>Implementação de políticas de segurança em servidores e firewalls (pfSense);</li>
+            <li>Participação em projetos de hardening, automação de processos e otimização de redes;</li>
+            <li>Contribuição com a segurança em nuvem, incluindo Cloudflare e Bitdefender GravityZone Business Security.</li>
+        </ul>
+    </section>
+
+    <!-- Projetos -->
+    <section class="card reveal">
+        <h2>Projetos</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <div class="project-thumb"><img src="img/meow.jpeg" alt="Meow has been Pwned"></div>
+                <h4>Meow has been Pwned - Hack The Box</h4>
+                <p>Conquistei o pin "Meow has been Pwned" no Hack The Box ao realizar a exploração da máquina Meow. Experiência em pentesting, escalonamento de privilégios e análise de vulnerabilidades.</p>
             </div>
-        </section>
-        <section id="skills" data-aos="fade-up">
-            <h2>Skills</h2>
-            <div class="skill-item">
-                <div class="skill-content">
-                    <h2>HTML</h2>
-                    <p>Experiência na criação e estruturação de páginas web, utilizando HTML para construir a base de sites e aplicações web.</p>
-                </div>
-                <img src="img/html.png" alt="HTML logo" class="skill-icon">
+            <div class="project">
+                <div class="project-thumb"><img src="img/catlinux.jpeg" alt="cat linux.txt"></div>
+                <h4>Aprendizado Prático em Linux - TryHackMe</h4>
+                <p>Badge "cat linux.txt", aprendizado prático de comandos Linux essenciais para cibersegurança e administração de sistemas Unix.</p>
             </div>
-            <div class="skill-card">
-                <div class="skill-content">
-                <h3>CSS</h3>
-                <p>Utilizo CSS para estilizar páginas web, com conhecimento em técnicas de layout como Flexbox e Grid.</p>
-                </div>
-                <img src="img/css.png" alt="CSS logo" class="skill-icon">
-            </div>
-            <div class="skill-card">
-                <div class="skill-content">
-                <h3>JavaScript</h3>
-                <p>Estou aprimorando meus estudos em JavaScript, manipulando o DOM e explorando frameworks populares.</p>
-                </div>
-                <img src="img/js.png" alt="JavaScript logo" class="skill-icon">
-            </div>
-            <div class="skill-card">
-                <h3>Linguagem C</h3>
-                <div class="skill-content">
-                <p>Aprofundando estudos em C, essencial para programação de sistemas e embarcada.</p>
-                </div>
-                <img src="img/c.png" alt="C logo" class="skill-icon">
-            </div>
-            <div class="skill-card">
-                <h3>Hardware Avançado</h3>
-                <div class="skill-content">
-                <p>Conhecimento em montagem e manutenção de computadores, otimizando o desempenho dos sistemas.</p>
-                </div>
-                <img src="img/hdwr.png" alt="Hardware logo" class="skill-icon">
-            </div>
-            <div class="skill-card">
-                <h3>Banco de Dados</h3>
-                <div class="skill-content">
-                <p>Conhecimento em criação e manipulação de tabelas e consultas em bancos de dados.</p>
-                </div>
-                <img src="img/db.png" alt="Database logo" class="skill-icon">
-            </div>
-            <div class="skill-card">
-                <h3>Microsoft Office</h3>
-                <div class="skill-content">
-                <p>Proficiente nas ferramentas do Microsoft Office, como Word, Excel e PowerPoint.</p>
-                </div>
-                <img src="img/off.png" alt="Office logo" class="skill-icon">
-            </div>
-        </section>
-        <section id="educacao" data-aos="fade-up">
-            <h2>Educação</h2>
-            <div class="education-container">
-                <div class="education-item">
-                    <div class="education-icon">
-                        <img src="img/anch.jpg" alt="Ícone Colégio Anchieta">
-                    </div>
-                    <div class="education-info">
-                        <h3>Colégio Anchieta SBC</h3>
-                        <p><strong>Ensino Médio Técnico de Informática</strong></p>
-                        <p>2021 à 2023 (Concluído)</p>
-                        <p>Durante o ensino médio técnico, desenvolvi uma sólida base em informática e programação. O curso proporcionou uma compreensão profunda de conceitos fundamentais e preparou-me para a aplicação prática desses conhecimentos em projetos e desafios do mundo real.</p>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <div class="education-icon">
-                        <img src="img/fam.jpg" alt="Ícone Faculdade de Americana">
-                    </div>
-                    <div class="education-info">
-                        <h3>Faculdade de Americana</h3>
-                        <p><strong>Ciências da Computação (2º Semestre - Noturno)</strong></p>
-                        <p>2024 à 2027 (Em andamento)</p>
-                        <p>Atualmente, estou no segundo semestre do curso de Ciências da Computação, onde estou ampliando meu conhecimento em áreas avançadas da computação. O curso noturno permite que eu equilibre os estudos com outras atividades e me proporciona uma compreensão aprofundada das áreas de software, hardware e desenvolvimento de sistemas.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="projetos" data-aos="fade-up">
-            <h2>Projetos</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Tic Tac Toe</h3>
-                    <p>html, css and js</p>
-                    <a href="https://juangoler.github.io/TicTacToe/" target="_blank">Ver Site</a><br>
-                    <a href="https://github.com/juangoler/Tic-Tac-Toe" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Task List</h3>
-                    <p>html, css and js</p>
-                    <a href="https://github.com/juangoler/TaskList" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Simple Calculator</h3>
-                    <p>html, css and js</p>
-                    <a href="https://github.com/juangoler/SimpleCalculator" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Simple Counter</h3>
-                    <p>html and js</p>
-                    <a href="https://github.com/juangoler/SimpleCounter" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Personal Portfolio</h3>
-                    <p>html and css</p>
-                    <a href="https://github.com/juangoler/PersonalPortfolio" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Dashboard Design</h3>
-                    <p>html and css</p>
-                    <a href="https://github.com/juangoler/DashboardDesign" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Blog Post Layout</h3>
-                    <p>html and css</p>
-                    <a href="https://github.com/juangoler/BlogPostLayout" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Advanced Contact Form</h3>
-                    <p>html and css</p>
-                    <a href="https://github.com/juangoler/AdvancedContactForm" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Login Page Modern Design</h3>
-                    <p>html and css</p>
-                    <a href="https://github.com/juangoler/LoginPageModernDesign" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Average Notes</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/AverageNotes" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Calculation Factorial</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/CalculationFactorial" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>MDC</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/MDC" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Square Root</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/SquareRoot" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Number Prime</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/NumberPrime" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Potency</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/Potency" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Sum And Average</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/SumAndAverage" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Temperature Conversation</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/TemperatureConversation" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Fund Flow</h3>
-                    <p>dart</p>
-                    <a href="https://github.com/juangoler/FundFlow" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Identity Info</h3>
-                    <p>dart</p>
-                    <a href="https://github.com/juangoler/IdentityInfo" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Student Valuator</h3>
-                    <p>dart</p>
-                    <a href="https://github.com/juangoler/StudentValuator" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Sum Greater Than Ten</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/SumGreaterThanTen" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Sum Less Than Ten</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/SumLessThanTen" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Between 20 an 80</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/Between20And80" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Gasoline Consumption</h3>
-                    <p>language C</p>
-                    <a href="https://github.com/juangoler/GasolineConsumption" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Equal, Less, Than or Greater than Twenty</h3>
-                    <p>language c</p>
-                    <a href="https://github.com/juangoler/Equal-Less-ThanOrGreaterThanTwenty" target="_blank">Ver Projeto</a>
-                </div>
-            </div>
-        </section>
-        <section id="idioma" data-aos="fade-up" class="language-section">
-            <h2>Idiomas</h2>
-            <div class="language-card">
-                <div class="language-icon">
-                    <img src="img/eua.png" alt="Ícone Inglês">
-                </div>
-                <div class="language-info">
-                    <h3>Inglês</h3>
-                    <p>Intermediário</p>
-                </div>
-            </div>
-            <div class="language-card">
-                <div class="language-icon">
-                    <img src="img/chile.png" alt="Ícone Espanhol">
-                </div>
-                <div class="language-info">
-                    <h3>Espanhol</h3>
-                    <p>Intermediário</p>
-                </div>
-            </div>
-        </section>        
-        <section id="contact" data-aos="fade-up">
-            <h2>Contato</h2>
-            <form action="https://formspree.io/f/mgvwqyld" method="POST">
-                <div class="form-group">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="company">Nome da Empresa:</label>
-                    <input type="text" id="company" name="company">
-                </div>
-                <div class="form-group">
-                    <label for="phone">Número de Telefone:</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email para contato:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Mensagem:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-        
-    </main>
-    <footer>
-        <p>&copy; 2024 Juan Goler. Todos os direitos reservados.</p>
-        <div class="social-links">
-            <a href="https://instagram.com/juangolerr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/juangoler" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
         </div>
+    </section>
+
+    <!-- Certificações -->
+    <section class="card reveal">
+        <h2>Certificações</h2>
+        <ul>
+            <li>FCF - Introduction to the Threat Landscape 3.0 - FORTINET</li>
+            <li>BXSEC 2025 - BxSec Security Conference</li>
+            <li>Introduction to Cybersecurity - Cisco</li>
+            <li>BitDefender - SS Bitdefender GravityZone Expert 2025</li>
+            <li>Bitdefender Certified - BitDefender Encryption</li>
+            <li>Bitdefender Certified - BitDefender Partner</li>
+            <li>Bitdefender Certified - BitDefender Patch</li>
+            <li>Bitdefender Certified - BitDefender Update 2025</li>
+            <li>Securisoft Academy Certified - Cybersecurity Essentials</li>
+            <li>Bitdefender - SS Bitdefender GravityZone Expert</li>
+            <li>Bitdefender Certified - GravityZone Business Security</li>
+            <li>Bitdefender Certified - GravityZone Business Security Enterprise</li>
+            <li>Bitdefender Certified - GravityZone Business Security Premium</li>
+            <li>Como desenvolver uma carreira de sucesso em tecnologia - Faculdade de Americana</li>
+            <li>TryHackMe - cat linux.txt</li>
+            <li>DevFest Americana - GDG Americana</li>
+            <li>De Estudante a Profissional: Desafios e Oportunidades na Carreira de TI - Faculdade de Americana</li>
+            <li>Introdução à Programação - EBAC - Escola Britânica de Artes Criativas e Tecnologia</li>
+            <li>Crimes Cibernéticos - Faculdade de Americana</li>
+            <li>Estrutura Organizacional do Ambiente de Desenvolvimento - Faculdade de Americana</li>
+            <li>Explorando Inovações em IA com o Recod.ai - Faculdade de Americana</li>
+            <li>Introdução ao Flutter - Faculdade de Americana</li>
+            <li>Introdução ao Unity - Faculdade de Americana</li>
+            <li>Integração com Flutter e Angular - Faculdade de Americana</li>
+            <li>Web e Angular - Faculdade de Americana</li>
+            <li>Programação e Robótica - Fase 1 e 2 - SUPERGEEKS - SÃO BERNARDO DO CAMPO</li>
+        </ul>
+    </section>
+
+    <!-- Redes -->
+<section class="card reveal">
+    <h2>Redes Sociais & Contatos</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/juangoler/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/juangoler" target="_blank">GitHub</a></li>
+        <li><a href="mailto:juanandreigoler@gmail.com">Gmail</a></li>
+        <li><a href="https://tryhackme.com/p/juangoler" target="_blank">TryHackMe</a></li>
+        <li><a href="https://app.hackthebox.com/profile/#2361088" target="_blank">Hack The Box</a></li>
+        <li><a href="https://www.instagram.com/juangolerr/" target="_blank">Instagram</a></li>
+    </ul>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="reveal">
+        &copy; 2025 Juan Goler. Todos os direitos reservados.
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="scripts.js"></script>
-    <script>
-        AOS.init();
-    </script>
+</div>
+
+<script src="main.js"></script>
 </body>
 </html>
