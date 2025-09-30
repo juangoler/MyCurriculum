@@ -1,4 +1,3 @@
-// Partículas
 const canvas = document.getElementById('particles');
 const ctx = canvas.getContext('2d');
 let particlesArray = [];
@@ -55,7 +54,6 @@ function animate(){
 init();
 animate();
 
-// Reveal on scroll
 const reveals = document.querySelectorAll('.reveal');
 function reveal(){
     const windowHeight = window.innerHeight;
@@ -66,3 +64,4 @@ function reveal(){
 }
 window.addEventListener('scroll',reveal);
 reveal();
+
